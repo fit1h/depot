@@ -1,0 +1,89 @@
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-01 07:55:25 -0800
+Connecting to database specified by database.yml
+Processing by StoreController#index as HTML
+  [1m[36mProduct Load (0.7ms)[0m  [1mSELECT "products".* FROM "products" ORDER BY title[0m
+  Rendered store/index.html.erb within layouts/application (356.8ms)
+Compiled carts.css  (202ms)  (pid 29199)
+Compiled line_items.css  (13ms)  (pid 29199)
+Compiled products.css  (57ms)  (pid 29199)
+Compiled scaffolds.css  (54ms)  (pid 29199)
+Compiled store.css  (26ms)  (pid 29199)
+Compiled application.css  (961ms)  (pid 29199)
+Compiled jquery.js  (20ms)  (pid 29199)
+Compiled jquery_ujs.js  (1ms)  (pid 29199)
+Compiled carts.js  (575ms)  (pid 29199)
+Compiled line_items.js  (2ms)  (pid 29199)
+Compiled products.js  (1ms)  (pid 29199)
+Compiled store.js  (2ms)  (pid 29199)
+Compiled application.js  (1226ms)  (pid 29199)
+Completed 200 OK in 3988ms (Views: 3707.8ms | ActiveRecord: 77.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-01 07:55:33 -0800
+Served asset /application.css - 304 Not Modified (46ms)
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2012-12-01 07:55:33 -0800
+Served asset /carts.css - 304 Not Modified (18ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-12-01 07:55:33 -0800
+Served asset /scaffolds.css - 200 OK (9ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-12-01 07:55:33 -0800
+Served asset /line_items.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-12-01 07:55:33 -0800
+Served asset /products.css - 304 Not Modified (44ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-01 07:55:33 -0800
+Served asset /jquery.js - 304 Not Modified (109ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2012-12-01 07:55:33 -0800
+Served asset /store.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-01 07:55:33 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2012-12-01 07:55:33 -0800
+Served asset /carts.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-12-01 07:55:33 -0800
+Served asset /products.js - 304 Not Modified (14ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-12-01 07:55:33 -0800
+Served asset /line_items.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2012-12-01 07:55:33 -0800
+Served asset /store.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-01 07:55:33 -0800
+Served asset /application.js - 304 Not Modified (59ms)
+
+
+Started GET "/assets/rails-wintermeyer.jpg" for 127.0.0.1 at 2012-12-01 07:55:33 -0800
+Served asset /rails-wintermeyer.jpg - 304 Not Modified (88ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-12-01 07:55:33 -0800
+Served asset /rails.png - 304 Not Modified (22ms)
+
+
+Started GET "/assets/rails-galileo.jpg" for 127.0.0.1 at 2012-12-01 07:55:33 -0800
+Served asset /rails-galileo.jpg - 304 Not Modified (172ms)
+
+
+Started GET "/assets/rails-dpunkt.jpg" for 127.0.0.1 at 2012-12-01 07:55:34 -0800
+Served asset /rails-dpunkt.jpg - 304 Not Modified (92ms)

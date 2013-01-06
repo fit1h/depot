@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DepotFit1h</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body class="<%= controller.controller_name %>">
+  <div id="banner">
+    <%= image_tag("rails.png") %>
+    <%= @page_title || "Rails Books" %>
+  </div>
+
+<div id="columns">
+  <div id="side">
+      <% if @cart %>
+        <div id="cart">
+          <%= hidden_div_if(@cart.line_items.empty?, id: 'cart') do %>
+            <%= render @cart %>
+          <% end %>
+        </div>
+      <% end %>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">News</a></li>
+      <li><a href="#">Question</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </div>
+
+  <div id="main">
+    <%= yield %>
+  </div>
+  
+</div>
+
+
+</body>
+</html>
